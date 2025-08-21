@@ -1,7 +1,7 @@
 from example2 import reverse_string
 
 def test_reverse_normal():
-    assert reverse_string("Joban") == "naboj"
+    assert reverse_string("Joban") == "naboJ"
 
 def test_reverse_empty():
     assert reverse_string("") == ""
